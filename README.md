@@ -1,0 +1,1 @@
+This repository showcases projects developed with Spring Boot and React.js, serving as a platform for learning and exploration of these technologies. It features applications built to gain knowledge and delve deeper into the functionalities of Spring Boot and React.js.
