@@ -1,0 +1,5 @@
+The application is designed to facilitate CRUD operations for employee records, featuring a backend developed with Spring Boot, a MongoDB database, and a React.js frontend. Within the backend architecture, a single entity class named 'Employee' is defined, alongside dedicated DAO and service classes tailored specifically for this entity. To handle basic HTTP CRUD operations, a controller layer has been meticulously crafted.
+
+On the frontend, the React.js framework is employed, comprising three key components: 'Header', 'ListEmployee', and 'Footer' for the main page layout. Additionally, a form component has been implemented to enable seamless addition and updating of employee records. Leveraging React hooks such as 'useState', 'useEffect', and 'useParams' optimizes state management and facilitates dynamic routing within the application.
+
+For communication between the frontend and backend systems, the Axios library is utilized to interact with the backend REST service efficiently. This ensures smooth data transmission and synchronization between the user interface and the underlying data layer, enhancing the overall user experience of the application.
