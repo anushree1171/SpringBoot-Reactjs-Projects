@@ -1,0 +1,228 @@
+.home-container{
+    margin-top: 80px;
+    margin-left: 300px;
+
+    height: fit-content;
+
+    font-family: sans-serif;
+
+    z-index: 0;
+}
+
+/* all containers inside home-container margin = 25px */
+
+.welcome{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+
+    width : 95%;
+    height: 40%;
+    margin: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content{
+    width: 45%;
+    height: 100%;
+
+    margin-left: 3%;
+}
+
+.text-content h4{
+    font-size: 1.8rem;
+    color: rgba(24,119,242, 0.8);
+
+    margin:20px 0;
+    
+}
+
+.text-content h6{
+    font-size: 1.3rem;
+    font-weight: lighter;
+
+    color: rgb(143, 155, 162);
+
+    margin: 20px 0;
+}
+
+.text-content button{
+    width: 300px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(24,119,242, 0.6), rgba(111, 0, 255, 0.4));
+    border-radius: 20px;
+    border:none;
+
+    margin-top: 40px;
+
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.image-content{
+
+    width: 45%;
+    height: 95%;
+
+    margin-right: 3%;
+
+    object-fit: cover;
+}
+
+.image-content img{
+    width:100%;
+    height:100%;
+}
+
+.tasks{
+    margin : 25px;
+    height: 40%;
+}
+
+.tasks h1{
+    color: rgba(24,119,242, 0.8);
+}
+
+.tasks-container{
+    margin: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card1{
+    /* height: 80%; */
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px 10px;
+
+    color: rgb(107, 114, 118);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to right, rgba(24,119,242, 0.8), rgba(111, 0, 255, 0.7));
+    border-radius: 0 0 10px 10px;
+    border-image-slice: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* transition: all 0.3s ease; */
+}
+
+/* .card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+} */
+
+.card1 h3, h6, p, .card1-icons{
+    margin:10px;
+}
+
+.card1 h3{
+    color: rgba(24,119,242,0.8);
+}
+
+.card1 .task-status{
+    width: 90%;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1 .card1-icons, .card1 .task-status .task-status-options{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    transition: all 0.3s ease;
+}
+
+.card1-icon{
+    padding: 6px;
+    transform: scale(1.1);
+}
+
+.card1-icon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.task-status-ip input[type="radio"]{
+    appearance: none;
+}
+
+.task-status .task-status-options .task-status-ip input[type="radio"]:checked + label .card1-icon{
+    border-radius: 50%;
+    background-color: rgba(24,119,242, 0.3);
+}
+
+.task-percentage{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    padding: 25px;
+    margin:25px;
+}
+
+.task-percentage h1{
+    color: rgba(24,119,242, 0.8);
+}
+
+.task-percentage .percentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    padding: 25px;
+}
+
+.task-percentage .percentage .overall{
+    margin: 0 25px;
+}
+
+.task-percentage .percentage .overall h3, .task-percentage .percentage .category-wise h3 {
+    font-size: 1.3rem;
+    color: rgba(24,119,242,0.8);
+}
+
+.task-percentage .percentage .overall, .category-wise{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+  
+.task-percentage .percentage .category-wise{
+    width: 50%;
+}
+
+.hor-progressBar-container .pb{
+    padding: 0 20px;
+    border: none;
+}
+
+.hor-progressBar-container .pb h5{
+    color: grey;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width : 1000px) {
+    .home-container{
+        margin-left: 0;
+    }
+
+    .tasks .tasks-container{
+        flex-wrap: wrap;
+    }
+}
+

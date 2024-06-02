@@ -1,0 +1,99 @@
+.task-container{
+    margin-top:100px;
+    margin-left: 350px;
+    margin-right: 50px;
+
+    height: fit-content;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px 20px 0 0;
+
+    font-family: sans-serif;
+}
+
+.task-container .task-nav{
+    width:100%;
+    height: fit-content;
+    position: relative;
+    top:0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-container .task-nav h4{
+    height: 100%;
+    width: fit-content;
+    margin : 10px;
+    padding: 20px 50px;
+    font-weight: lighter;
+
+    font-size: 1.1rem;
+    
+}
+
+.task-container .task-nav h4:hover{
+    cursor: pointer;
+}
+
+.task-container .task-nav button{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    background-image: linear-gradient(to right, rgba(24,119,242, 0.8), rgba(111, 0, 255, 0.7));
+    border: none;
+    color: #fff;
+
+    transition: all 0.3s ease;
+}
+
+.task-container .task-nav button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.task-container .task-nav h4:hover, .task-container .task-nav h4:active{
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, rgba(24,119,242, 0.8), rgba(111, 0, 255, 0.7));
+    border-image-slice: 1;
+}
+
+.task-container .task-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.task-container .task-list .started , .in-progress , .completed {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.task-container .task-list h3{
+    color: rgba(24,119,242, 0.8);
+}
+
+.task-container .task-list .started *, .in-progress *, .completed *{
+    width: 80%;
+}
+
+@media screen and (max-width: 1000px){
+    .task-container{
+        margin: 100px 20px 10px 20px;
+    }
+
+    .task-container .task-nav button{
+        margin:20px;
+        border-radius: 50%;
+    }
+}

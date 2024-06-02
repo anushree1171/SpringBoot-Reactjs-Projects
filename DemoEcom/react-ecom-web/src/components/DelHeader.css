@@ -1,0 +1,24 @@
+.del-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    background-color: #202f4e;
+    color: #fff;
+    margin-bottom: 20px;
+
+    width:100%;
+
+    margin:0;
+    padding:0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.del-header .icon{
+    width:1.5rem;
+    height:1.5rem;
+    color: #fff;
+}

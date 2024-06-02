@@ -1,0 +1,75 @@
+.task-form{
+    margin-top: 100px;
+    margin-left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.task-form .task-form-header{
+    color:rgba(24,119,242, 0.8);
+}
+
+.task-form form{
+    width: 50%;
+    height: 100%;
+
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.task-form form .task-form-ip .task-form-label{
+    font-size: 1.3rem;
+    color: rgba(24,119,242, 0.8);
+}
+
+.task-form form .task-form-ip *{
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+
+.task-form form .task-form-ip input, select{
+    font-size: 1.1rem;
+    color: grey;
+    width: 85%;
+    height: fit-content;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.task-form form button{
+    height: 50px;
+    width: 150px;
+
+    font-size: 1.1rem;
+
+    background-image: linear-gradient(to right, rgba(24,119,242, 0.5), rgba(111, 0, 255, 0.5));
+    border: none;
+    border-radius: 20px;
+
+    margin: 30px 0 0 0;
+
+    color: #fff;
+
+    transition: all 0.3s ease;
+}
+
+.task-form form button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width : 1000px) {
+    .task-form{
+        margin-left: 25px;
+    }
+}

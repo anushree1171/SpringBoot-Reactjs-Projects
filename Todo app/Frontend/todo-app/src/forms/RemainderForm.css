@@ -1,0 +1,70 @@
+.remainder-form{
+    margin-top: 100px;
+    margin-left: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+.remainder-form form {
+    width: 50%;
+    height: fit-content;
+    padding: 50px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.remainder-form h1{
+    color: rgba(24,119,242, 0.8);
+}
+
+.remainder-form form *{
+    margin: 15px 20px;
+}
+
+.remainder-form form label{
+    font-size: 1.4rem;
+    color: rgba(24,119,242, 0.8);
+}
+
+.remainder-form input{
+    width: 80%;
+    height: 30px;
+
+    font-size: 1.1rem;
+    color: grey;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.remainder-form button{
+    height: 50px;
+    width: 150px;
+
+    font-size: 1.1rem;
+
+    background-image: linear-gradient(to right, rgba(24,119,242, 0.5), rgba(111, 0, 255, 0.5));
+    border: none;
+    border-radius: 20px;
+
+    color: #fff;
+
+    transition: all 0.3s ease;
+}
+
+.remainder-form button:hover{
+    transform : scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width : 1000px) {
+    .remainder-form{
+        margin-left: 50px;
+    }
+}

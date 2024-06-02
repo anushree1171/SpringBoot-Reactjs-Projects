@@ -1,0 +1,31 @@
+.address-card-container {
+    background-color: #dbdcde;
+    color: #555658;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    width: 30%;
+}
+
+.address-card-container p {
+    margin: 10px 5px;
+}
+
+.address-card-container h4{
+    font-size: 25px;
+}
+
+.delete-icon {
+    color: #000;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.delete-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: rgb(160, 160, 82);
+}

@@ -1,0 +1,129 @@
+[
+    {
+      "name": "Complete Project Proposal",
+      "description": "Draft and finalize project proposal document.",
+      "category": "Planning",
+      "status": "Started"
+    },
+    {
+      "name": "Design User Interface",
+      "description": "Create wireframes and mockups for the user interface.",
+      "category": "Design",
+      "status": "InProgress"
+    },
+    {
+      "name": "Develop Backend API",
+      "description": "Implement RESTful APIs for backend functionality.",
+      "category": "Development",
+      "status": "InProgress"
+    },
+    {
+      "name": "Write Unit Tests",
+      "description": "Create unit tests to ensure code quality.",
+      "category": "Testing",
+      "status": "Completed"
+    },
+    {
+      "name": "Review Codebase",
+      "description": "Conduct peer code reviews for quality assurance.",
+      "category": "Review",
+      "status": "Completed"
+    },
+    {
+      "name": "Prepare Presentation",
+      "description": "Prepare slides for project presentation.",
+      "category": "Presentation",
+      "status": "Started"
+    },
+    {
+      "name": "Update Documentation",
+      "description": "Update project documentation with latest changes.",
+      "category": "Documentation",
+      "status": "InProgress"
+    },
+    {
+      "name": "Fix Bug in Login Module",
+      "description": "Investigate and fix bug reported in the login module.",
+      "category": "Bug Fixing",
+      "status": "InProgress"
+    },
+    {
+      "name": "Deploy Application",
+      "description": "Deploy application to production servers.",
+      "category": "Deployment",
+      "status": "Completed"
+    },
+    {
+      "name": "Client Meeting",
+      "description": "Schedule and conduct meeting with client to gather requirements.",
+      "category": "Meeting",
+      "status": "Started"
+    },
+    {
+      "name": "Optimize Database Queries",
+      "description": "Identify and optimize slow database queries.",
+      "category": "Performance",
+      "status": "InProgress"
+    },
+    {
+      "name": "Create Test Data",
+      "description": "Generate test data for automated testing.",
+      "category": "Testing",
+      "status": "Completed"
+    },
+    {
+      "name": "Refactor Codebase",
+      "description": "Refactor existing code for better maintainability.",
+      "category": "Refactoring",
+      "status": "InProgress"
+    },
+    {
+      "name": "Prepare Sprint Review",
+      "description": "Prepare presentation and demo for sprint review meeting.",
+      "category": "Review",
+      "status": "Completed"
+    },
+    {
+      "name": "Document API Endpoints",
+      "description": "Document all API endpoints for developer reference.",
+      "category": "Documentation",
+      "status": "Started"
+    },
+    {
+      "name": "Implement New Feature",
+      "description": "Add new feature requested by the client.",
+      "category": "Development",
+      "status": "InProgress"
+    },
+    {
+      "name": "Run System Tests",
+      "description": "Execute system tests to validate overall system functionality.",
+      "category": "Testing",
+      "status": "Completed"
+    },
+    {
+      "name": "Review User Feedback",
+      "description": "Analyze user feedback and prioritize enhancements.",
+      "category": "Review",
+      "status": "Started"
+    },
+    {
+      "name": "Update Security Policies",
+      "description": "Update security policies to address new vulnerabilities.",
+      "category": "Security",
+      "status": "InProgress"
+    },
+    {
+      "name": "Create User Guides",
+      "description": "Create user guides for end-users.",
+      "category": "Documentation",
+      "status": "InProgress"
+    },
+    {
+      "name": "Perform Code Review",
+      "description": "Review code submitted by team members.",
+      "category": "Review",
+      "status": "Completed"
+    }
+  ]
+  

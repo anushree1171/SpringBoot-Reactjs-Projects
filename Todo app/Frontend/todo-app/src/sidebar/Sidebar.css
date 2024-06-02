@@ -1,0 +1,99 @@
+.sidebar-container{
+    height:100vh;
+    width: 300px;
+    margin : 0;
+    padding: 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    font-family: sans-serif;
+    color: #fff;
+
+    background-image: linear-gradient(to bottom, rgba(24,119,242, 0.8), rgba(111, 0, 255, 0.7));
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 0px 25px;
+
+    transition: all 0.3s ease;
+
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.sidebar-title{
+    height: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar-title h4{
+    font-size: 1.5rem;
+    padding : 10px 30px;
+
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(111, 0, 255);
+}
+
+.sidebar-section{
+    height: 7%;
+    margin:10px 0 0 30px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    font-size: 1.2rem;
+
+    transition: all 0.3s ease;
+}
+
+.sidebar-section:hover, .sidebar-section:active{
+    cursor: pointer;
+    border-radius: 30px 0 0 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(111, 0, 255);
+}
+
+.hamburger-label {
+    font-size: 1.5rem;
+    color: #fff;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1100;
+
+    display:none;
+}
+
+.hamburger-ip{
+    appearance: none;
+}
+
+@media screen and (max-width:1000px) {
+    
+    .sidebar-container{
+       left: -300px;
+    }
+
+    .hamburger-label{
+        display : block;
+        color: rgba(111, 0, 255, 0.7);
+    }
+
+    .hamburger-label:hover{
+        cursor: pointer;
+    }
+
+    .hamburger-ip:checked ~ .sidebar-container{
+        left:0;
+    }
+    
+}
+
