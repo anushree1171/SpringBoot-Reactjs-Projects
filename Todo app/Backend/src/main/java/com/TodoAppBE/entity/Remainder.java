@@ -31,8 +31,8 @@ public class Remainder {
 
     Boolean trash;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+//    @ManyToOne
+//    @JoinColumn(name = "user_id")
+//    private User user;
 
 }

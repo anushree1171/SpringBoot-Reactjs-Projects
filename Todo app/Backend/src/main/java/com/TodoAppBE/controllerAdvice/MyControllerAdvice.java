@@ -26,19 +26,19 @@ public class MyControllerAdvice {
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler(UsernameOrEmailIdNotFoundException.class)
-    @ResponseStatus(HttpStatus.NOT_FOUND)
-    public ResponseEntity<ErrorResponse> handleUserNotFoundException(UsernameOrEmailIdNotFoundException ex){
-        ErrorResponse errorResponse = new ErrorResponse(HttpStatus.NOT_FOUND.value(), ex.getMessage());
-        return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
-    }
-
-    @ExceptionHandler(UsernameOrEmailIdExistsException.class)
-    @ResponseStatus(HttpStatus.CONFLICT)
-    public ResponseEntity<ErrorResponse> handleUsernameOrEmailIdExistsException(UsernameOrEmailIdExistsException ex){
-        ErrorResponse errorResponse = new ErrorResponse(HttpStatus.CONFLICT.value(), ex.getMessage());
-        return new ResponseEntity<>(errorResponse, HttpStatus.CONFLICT);
-    }
+//    @ExceptionHandler(UsernameOrEmailIdNotFoundException.class)
+//    @ResponseStatus(HttpStatus.NOT_FOUND)
+//    public ResponseEntity<ErrorResponse> handleUserNotFoundException(UsernameOrEmailIdNotFoundException ex){
+//        ErrorResponse errorResponse = new ErrorResponse(HttpStatus.NOT_FOUND.value(), ex.getMessage());
+//        return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
+//    }
+//
+//    @ExceptionHandler(UsernameOrEmailIdExistsException.class)
+//    @ResponseStatus(HttpStatus.CONFLICT)
+//    public ResponseEntity<ErrorResponse> handleUsernameOrEmailIdExistsException(UsernameOrEmailIdExistsException ex){
+//        ErrorResponse errorResponse = new ErrorResponse(HttpStatus.CONFLICT.value(), ex.getMessage());
+//        return new ResponseEntity<>(errorResponse, HttpStatus.CONFLICT);
+//    }
 
 
 }
