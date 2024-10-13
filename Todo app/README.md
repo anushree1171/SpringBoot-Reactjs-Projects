@@ -114,22 +114,3 @@ NOTE: data for postman is provided in json format
 can be saved in a MySQL database using the provided .sql files
 
 NOTE: data for postman is provided in the form of sql queries
-
-
-# Application screenshots 
-
-![Alt text](Application Screenshots\image-1.png)
-
-![Alt text](Application Screenshots\image-1.png)
-
-![Alt text](Application Screenshots\image-2.png)
-
-![Alt text](Application Screenshots\image-3.png)
-
-![Alt text](Application Screenshots\image-4.png)
-
-![Alt text](Application Screenshots\image-5.png)
-
-![Alt text](Application Screenshots\image-6.png)
-
-![Alt text](Application Screenshots\image-7.png)
